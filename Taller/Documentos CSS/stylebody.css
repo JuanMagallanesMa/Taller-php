@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    overflow: hidden
+    
+}
+header{
+    width: 100%;
+    height: 180px;
+    
+}
+
+.button  {
+    display: flex;
+    padding: 10px 24px;
+    margin: 1px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background-color: white;
+    border-radius: 100px;
+    border: 1px solid #000000;
+}
+.button:hover{
+    background-color: #282828;
+    color: white;
+    border: 1px solid #575757;
+    
+}
+.contenedor-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 100px;
+    padding: 12px;
+    display: inline-flex;
+    height: 36px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+}
+
+.Principal{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+
+.fondo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    z-index: -1;
+}
+
+.fondo img{
+    width: 100%; 
+    height: 700px;
+}
+
+main{
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+    
+}
+
+.Sub-principal{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10%;
+    padding: 50px;
+    color: white;
+    
+}
+
+
+.Sub-principal h2{
+    font-size: 50px;
+}
+
+
+.Sobre-tema{
+    box-sizing: border-box;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 100px;
+}
+
+.Sub-tema{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 25px 70px;
+}
+
+.Sub-tema h2{
+    font-size: 50px;
+}
+
+.Sub-tema p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.fondo-2{
+    background-image: url('../Img/Presentacion-sobre-habitaciones.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+}
+
+
+
+.Contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+}
+
+.Contenedor-img {
+    overflow: hidden;
+}
+
+.Contenedor-img img {
+    height: 100%;
+    width: 100%; 
+    display: block;
+}
+
+.Contenedor-txt {
+    margin: auto 30px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.Contenedor-txt h2 {
+    margin-top: 0;
+}
+
+.Contenedor-txt p{
+    text-align: justify;
+}
+
+
+
+#form-section{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px auto;
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form{
+    width: 100%;
+}
+
+.button-form{
+    margin: auto;
+    width: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    border: none;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.serviciosadicionales{
+    all: unset; 
+}
+input[type="radio"] {
+    display: block;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    display: inline-block;
+    width: 20%; 
+}
+
+
+

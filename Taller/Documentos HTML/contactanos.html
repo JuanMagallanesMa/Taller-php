@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Hotel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../Documentos CSS/stylebody.css">
+    <script src="../Documentos JS/scriptcontactanos.js" defer></script> 
+</head>
+
+<body>
+    <header>
+        <iframe src="../Documentos HTML/header.html" scrolling="no" frameborder="0"> </iframe>
+
+    </header>
+    <main>
+        <section id="form-section">
+            <h1>Formulario de Contacto</h1>
+            <form>
+                <div class="campo-container">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required 
+                        onmouseover="mostrarMensaje('Escribe tu nombre', event)" 
+                        onmouseout="ocultarMensaje()">
+                    <div id="mensajeEmergente"></div>
+                </div>
+
+                <div class="campo-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required 
+                        onmouseover="mostrarMensaje('Ingresa tu correo electrónico', event)" 
+                        onmouseout="ocultarMensaje()">
+                    <div id="mensajeEmergente"></div>
+                </div>
+
+                <div class="campo-container">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" cols="50" required 
+                        onmouseover="mostrarMensaje('Deja tu mensaje aquí', event)" 
+                        onmouseout="ocultarMensaje()"></textarea>
+                    <div id="mensajeEmergente"></div>
+                </div>
+
+                <div class="campo-container">
+                    <label for="subject">Asunto:</label>
+                    <select id="subject" name="subject" required 
+                        onmouseover="mostrarMensaje('Selecciona el asunto de tu mensaje', event)" 
+                        onmouseout="ocultarMensaje()">
+                        <option value="consulta">Consulta</option>
+                        <option value="soporte">Soporte</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <div id="mensajeEmergente"></div>
+                </div>
+
+                <div class="button-form">
+                    <button class="button" type="button" 
+                        onmouseover="mostrarMensaje('Presiona para enviar', event)" 
+                        onmouseout="ocultarMensaje()">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+        
+    <footer>
+        <iframe src="../Documentos HTML/footer.html" frameborder="0" scrolling="no" class="footer"></iframe>
+    </footer>
+
+</html>

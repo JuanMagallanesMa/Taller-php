@@ -1,0 +1,72 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+    background-color: #282828;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 100%;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 3000px;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    flex-basis: 30%;
+  }
+
+  .footer-section figure {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-section figure img{
+    width: 200px;
+  }
+
+  .footer-section h2 {
+    margin-bottom: 5px;
+    line-height: 10px;
+    font-size: 15px;
+  }
+
+  .correo{
+    color:#fff;
+    text-decoration: none;
+  }
+
+  .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-media li {
+    margin-right: 10px;
+  }
+  
+  .social-media img{
+    border-radius: 60px;
+    width: 30px; 
+    height: 30px;
+  }
+
+   .footer-bottom {
+    background-color:#4b4949 ; /* Color de fondo para la sección de copyright */
+    padding: 2px; /* Espaciado interno para la sección de copyright */
+    text-align: center;
+    font-size: 10px; /* Tamaño de fuente para el copyright */
+    line-height: 2px; /* Interlineado para el copyright */
+  }
+  
